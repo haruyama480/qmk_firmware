@@ -7,3 +7,7 @@ NKRO_ENABLE = yes
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight. 
+
+# enable dynamic macro
+DYNAMIC_MACRO_ENABLE = yes
+
