@@ -13,5 +13,5 @@
         "compose": "LINE_PIN24",
         "on_state": 0
     },
-    "debounce": 20
+    "debounce": 50
 }

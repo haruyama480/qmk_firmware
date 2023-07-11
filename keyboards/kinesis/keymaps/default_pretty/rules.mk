@@ -11,3 +11,5 @@ RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 # enable dynamic macro
 DYNAMIC_MACRO_ENABLE = yes
 
+# https://25keys.com/2022/02/10/debounce/
+DEBOUNCE_TYPE = sym_eager_pk
