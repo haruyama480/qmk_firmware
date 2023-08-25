@@ -37,9 +37,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTL,  KC_A,     KC_S,     KC_D,     KC_F,     KC_G,                                                                      KC_H,     KC_J,     KC_K,     KC_L,     KC_SCLN,  KC_QUOT,
     KC_LSFT,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,                                                                      KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,  KC_RSFT,
               KC_GRV,   KC_INS,   KC_LEFT,  KC_RGHT,                                                                                       KC_DOWN,  KC_UP,    KC_LBRC,  KC_RBRC,
-                                                      KC_LCTL,   LCA(KC_LGUI),                                               KC_RGUI,  KC_PGUP,
+                                                      KC_LCTL,   LCA(KC_LGUI),                                               KC_PGDN,  KC_PGUP,
                                                                  KC_ESC,                                                KC_BSPC,
-                                             KC_SPC,  KC_LGUI,   KC_LALT,                                                KC_PGDN,  KC_RGUI, KC_ENTER
+                                             KC_SPC,  KC_LGUI,   KC_LALT,                                                KC_MEH,  KC_RGUI, KC_ENTER
   )
+  // LCA(KC_LGUI): Left Control, Alt and GUI
+  // KC_MEH: Left Control, Shift and Alt
 
 };
